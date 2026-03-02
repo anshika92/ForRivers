@@ -76,9 +76,9 @@ body {
 }
 
 .step p {
-  font-size: 0.75rem;
-  line-height: 1.4;
-  max-width: 45ch;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  max-width: 40ch;
 }
 
 .inline-image {
