@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Forgotten Rivers</title>
+
+  <!-- Mapbox -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+
+  <!-- GSAP -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+  <h1>Forgotten Rivers</h1>
+  <p>They still flow.</p>
+</header>
+
+<div id="map-container">
+  <div id="map"></div>
+</div>
+
+<main id="story">
+
+  <section class="step" data-scene="region">
+    <p>Once, these rivers shaped where cities grew.</p>
+  </section>
+
+  <section class="step" data-scene="memory">
+    <p>They carried rain.<br>They carried memory.</p>
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+  </section>
+
+  <section class="step" data-scene="city">
+    <p>Then we stopped seeing them.</p>
+  </section>
+
+  <section class="step" data-scene="concrete">
+    <img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6">
+    <p>We built over water<br>and called it progress.</p>
+  </section>
+
+  <section class="step" data-scene="flood">
+    <p>Water does not forget its path.</p>
+    <p>When the rain comes back,<br>the river follows.</p>
+  </section>
+
+  <section class="step pause">
+    <p>The rivers are still here.</p>
+  </section>
+
+  <section class="ending">
+    <p>The question is not where the rivers went.</p>
+    <p class="final">It’s whether we are willing to see them again.</p>
+  </section>
+
+</main>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
