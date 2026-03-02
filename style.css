@@ -76,18 +76,9 @@ body {
 }
 
 .step p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.6;
-  max-width: 28ch;
-}
-
-.step quiet {
-  justify-content: center;
-}
-
-.step quiet .large {
-  font-size: 1.6rem;
-  font-weight: 500;
+  max-width: 34ch;
 }
 
 .inline-image {
