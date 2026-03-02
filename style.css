@@ -65,6 +65,11 @@ body {
   background: #f4f3ef;
 }
 
+.hero,
+#story {
+  position: relative;
+  z-index: 1;
+}
 .step {
   min-height: 90vh;
   padding: 3rem 1.5rem;
