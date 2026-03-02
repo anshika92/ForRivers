@@ -54,3 +54,13 @@ body {
   line-height: 1.6;
   max-width: 28ch;
 }
+
+.step quiet {
+  justify-content: center;
+}
+
+.step quiet .large {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
