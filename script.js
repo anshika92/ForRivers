@@ -21,6 +21,6 @@ const observer = new IntersectionObserver(
   { threshold: 0.6 }
 );
 
-document.querySelectorAll(".step").forEach((step) => {
+document.querySelectorAll(".step:not(.hero)").forEach((step) => {
   observer.observe(step);
 });
