@@ -6,6 +6,8 @@ body {
 }
 
 .hero {
+  opacity: 1 !important;
+  transform: none !important;
   height: 100vh;
   padding: 3rem 1.5rem;
   background: #f4f3ef;
@@ -70,6 +72,7 @@ body {
   position: relative;
   z-index: 1;
 }
+
 .step {
   min-height: 90vh;
   padding: 3rem 1.5rem;
